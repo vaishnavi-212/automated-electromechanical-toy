@@ -1,2 +1,2 @@
 # Automated electromechanical toy
-An interactive electromechanical toy system built using an ESP32 microcontroller, integrating sensors, servo motors, and DC motors to enable automated motion and responsive behavior.
+An interactive electromechanical toy system developed using the ESP32 microcontroller, designed to demonstrate automated motion through the integration of servo motors and DC motors. The system operates based on programmed control logic to execute coordinated movements and predefined actions. By combining embedded programming with motor actuation, the project showcases the implementation of controlled mechanical behavior and real-time execution in a compact smart system.
