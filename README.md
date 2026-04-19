@@ -7,7 +7,7 @@ An interactive electromechanical toy system developed using the ESP32 microcontr
 - Need for a simple, durable, and user-friendly toy for children (3–16 years)  
 - Designs often don’t support easy upgrades or long-term use
 
-Detailed problem statement: [View here](./01-problem-statement.md)
+Detailed problem statement: [Problem Statement](./01-problem-statement.md)
 ## Design Specifications
 
 - User-friendly, safe, and engaging design  
