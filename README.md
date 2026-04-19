@@ -8,3 +8,14 @@ An interactive electromechanical toy system developed using the ESP32 microcontr
 - Designs often don’t support easy upgrades or long-term use
 
 Detailed problem statement: [View here](./01-problem-statement.md)
+## Design Specifications
+
+- User-friendly, safe, and engaging design  
+- Durable and able to withstand minor impacts  
+- Cost-effective (under ₹5000), compact, and lightweight  
+- Designed for children aged 3–16 years  
+- Remote/app-controlled with light and sound features  
+- Uses non-toxic, eco-friendly materials  
+- Supports basic mobility and easy interaction  
+
+Detailed Design Specifications: [Design Specifications](./02-design-specifications.md)
