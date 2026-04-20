@@ -17,3 +17,19 @@ Common challenges include:
 - High cost for advanced functionality  
 
 These limitations highlight the need for a toy that is **interactive, simple, durable, and cost-effective**, while still providing an engaging user experience.
+
+## Project Objective
+
+The objective of this project is to design and develop a **safe, interactive, and cost-effective automated electromechanical toy system**.
+
+The system aims to:
+
+- Provide engaging interaction through motion, light, and sound  
+- Enable wireless control using Bluetooth communication  
+- Ensure safety using non-toxic and child-friendly materials  
+- Maintain durability to withstand minor impacts  
+- Keep the design compact, portable, and easy to use  
+
+The goal is to create a **balanced system** that integrates mechanical and electronic components while remaining simple, reliable, and accessible.
+
+---
