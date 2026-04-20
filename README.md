@@ -50,4 +50,24 @@ The goal is to create a **balanced system** that integrates mechanical and elect
   Designed with simple controls and child-safe materials  
 
 -  **Efficient Power Usage**  
-  Optimized design ensuring reliable performance with minimal energy consumption  
+  Optimized design ensuring reliable performance with minimal energy consumption
+
+##  System Architecture
+
+The system is designed as an integration of three main subsystems:
+
+###  Power Subsystem
+- Provides power to all components using a 12V DC supply  
+- A DC-DC buck converter steps down voltage to 5V for the servo motor  
+
+###  Actuation Subsystem
+- Two DC geared motors control rear wheel movement  
+- A servo motor controls front wheel steering  
+- Enables forward motion and directional control  
+
+###  Control Subsystem
+- ESP32 microcontroller acts as the central processing unit  
+- Receives commands via Bluetooth  
+- Processes input and controls motors accordingly  
+
+These subsystems work together to achieve coordinated motion and real-time control.
