@@ -32,4 +32,22 @@ The system aims to:
 
 The goal is to create a **balanced system** that integrates mechanical and electronic components while remaining simple, reliable, and accessible.
 
----
+## Key Features
+
+-  **Automated Motion Control**  
+  Coordinated movement using DC motors and a servo motor based on programmed logic  
+
+-  **Bluetooth-Based Wireless Control**  
+  Real-time command execution using ESP32 Bluetooth communication  
+
+-  **Interactive Behavior**  
+  Combines motion, light, and response for an engaging user experience  
+
+-  **Compact and Lightweight Design**  
+  Easy to handle, portable, and suitable for children  
+
+-  **Safe and User-Friendly System**  
+  Designed with simple controls and child-safe materials  
+
+-  **Efficient Power Usage**  
+  Optimized design ensuring reliable performance with minimal energy consumption  
