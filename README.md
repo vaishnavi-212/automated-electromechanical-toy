@@ -83,3 +83,12 @@ The toy operates through Bluetooth-based wireless control using the ESP32 microc
 - Commands are executed through programmed control logic  
 
 This enables responsive automated motion and interactive operation.
+
+##  Implementation Overview
+
+- ESP32 used for control and Bluetooth communication  
+- DC motors used for motion actuation  
+- Servo motor used for steering control  
+- Embedded code handles command processing and execution  
+
+The implementation demonstrates real-time embedded automation in a compact electromechanical system.
