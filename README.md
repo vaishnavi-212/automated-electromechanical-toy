@@ -71,3 +71,15 @@ The system is designed as an integration of three main subsystems:
 - Processes input and controls motors accordingly  
 
 These subsystems work together to achieve coordinated motion and real-time control.
+
+##  Working Principle
+
+The toy operates through Bluetooth-based wireless control using the ESP32 microcontroller.
+
+- User sends commands from a mobile device  
+- ESP32 processes the input in real time  
+- DC motors drive movement  
+- Servo motor controls steering  
+- Commands are executed through programmed control logic  
+
+This enables responsive automated motion and interactive operation.
