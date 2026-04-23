@@ -92,3 +92,14 @@ This enables responsive automated motion and interactive operation.
 - Embedded code handles command processing and execution  
 
 The implementation demonstrates real-time embedded automation in a compact electromechanical system.
+
+##  Tech Stack
+
+### Hardware
+- ESP32 Microcontroller  
+- 60 RPM DC Geared Motors  
+- SG90 Servo Motor  
+- Motor Driver Module  
+- Bluetooth Communication Module (ESP32 inbuilt)  
+
+
