@@ -102,4 +102,9 @@ The implementation demonstrates real-time embedded automation in a compact elect
 - Motor Driver Module  
 - Bluetooth Communication Module (ESP32 inbuilt)  
 
+### Software
+- Embedded C / Arduino IDE  
+- Bluetooth Serial Communication  
+- Motor Control Logic  
+- CAD Modeling for Design Development 
 
