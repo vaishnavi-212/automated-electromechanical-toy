@@ -108,3 +108,9 @@ The implementation demonstrates real-time embedded automation in a compact elect
 - Motor Control Logic  
 - CAD Modeling for Design Development 
 
+##  Results
+
+- Successful Bluetooth-based control achieved  
+- Real-time command execution validated  
+- Motor and steering concept demonstrated  
+- Compact automated prototype developed
