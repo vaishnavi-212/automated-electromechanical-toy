@@ -92,6 +92,9 @@ This enables responsive automated motion and interactive operation.
 - Embedded code handles command processing and execution  
 
 The implementation demonstrates real-time embedded automation in a compact electromechanical system.
+## ESP32 Bluetooth LED Control
+
+This project uses the ESP32 Bluetooth Serial feature to control the built-in LED using a mobile Bluetooth Terminal app.
 ##  Code
 
 
