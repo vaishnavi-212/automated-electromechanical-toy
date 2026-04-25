@@ -152,6 +152,13 @@ void loop() {
   delay(100);   // Small delay for stability
 }
 ```
+### How to Use
+1. Upload code to ESP32.
+2. Pair phone with Bluetooth device **Vkkk**.
+3. Open Serial Bluetooth Terminal app.
+4. Send:
+   - `1` → Turn LED ON
+   - `0` → Turn LED OFF
 ##  Tech Stack
 
 ### Hardware
