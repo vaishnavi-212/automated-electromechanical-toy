@@ -102,7 +102,56 @@ This project uses the ESP32 Bluetooth Serial feature to control the built-in LED
 - Send `0` → LED OFF  
 ##  Code
 
+### Arduino Code
 
+```cpp
+#include "BluetoothSerial.h"
+
+BluetoothSerial SerialBT;
+
+#define LED_PIN 2   // Built-in LED on most ESP32 boards
+
+void setup() {
+  Serial.begin(115200);
+  SerialBT.begin("Vkkk");   // Bluetooth device name
+  pinMode(LED_PIN, OUTPUT);
+
+  Serial.println("ESP32 Bluetooth ready. Pair and connect using Serial Bluetooth Terminal.");
+}
+
+void loop() {
+
+  // Check Bluetooth connection
+  if (SerialBT.hasClient()) {
+
+    if (SerialBT.available()) {
+
+      char incoming = SerialBT.read();   // Read Bluetooth data
+
+      Serial.print("Received: ");
+      Serial.println(incoming);
+
+      if (incoming == '1') {
+        digitalWrite(LED_PIN, HIGH);     // Turn LED ON
+        SerialBT.println("LED ON");
+        Serial.println("LED ON");
+      }
+
+      else if (incoming == '0') {
+        digitalWrite(LED_PIN, LOW);      // Turn LED OFF
+        SerialBT.println("LED OFF");
+        Serial.println("LED OFF");
+      }
+
+      else {
+        SerialBT.println("Send '1' to turn ON, '0' to turn OFF");
+      }
+    }
+  }
+
+  delay(100);   // Small delay for stability
+}
+```
 ##  Tech Stack
 
 ### Hardware
