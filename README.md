@@ -95,6 +95,11 @@ The implementation demonstrates real-time embedded automation in a compact elect
 ## ESP32 Bluetooth LED Control
 
 This project uses the ESP32 Bluetooth Serial feature to control the built-in LED using a mobile Bluetooth Terminal app.
+
+### Features
+- Connect to ESP32 via Bluetooth (`Vkkk`)
+- Send `1` → LED ON  
+- Send `0` → LED OFF  
 ##  Code
 
 
