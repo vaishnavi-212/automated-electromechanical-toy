@@ -92,6 +92,8 @@ This enables responsive automated motion and interactive operation.
 - Embedded code handles command processing and execution  
 
 The implementation demonstrates real-time embedded automation in a compact electromechanical system.
+##  Code
+
 
 ##  Tech Stack
 
