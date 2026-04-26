@@ -94,6 +94,9 @@ This enables responsive automated motion and interactive operation.
 The implementation demonstrates real-time embedded automation in a compact electromechanical system.
 
 
+##  Circuit
+<img width="1711" height="686" alt="image" src="https://github.com/user-attachments/assets/3b170bd0-5b44-4650-bc48-b789c8bb55ad" />
+
 ##  Code
 
 ### Arduino Code
