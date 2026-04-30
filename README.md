@@ -110,7 +110,7 @@ BluetoothSerial SerialBT;
 
 void setup() {
   Serial.begin(115200);
-  SerialBT.begin("Vkkk");   // Bluetooth device name
+  SerialBT.begin("xxx");   // Bluetooth device name
   pinMode(LED_PIN, OUTPUT);
 
   Serial.println("ESP32 Bluetooth ready. Pair and connect using Serial Bluetooth Terminal.");
@@ -151,7 +151,7 @@ void loop() {
 ```
 ### How to Use
 1. Upload code to ESP32.
-2. Pair phone with Bluetooth device **Vkkk**.
+2. Pair phone with Bluetooth device **xxx**.
 3. Open Serial Bluetooth Terminal app.
 4. Send:
    - `1` → Turn LED ON
